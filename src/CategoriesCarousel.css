@@ -1,0 +1,52 @@
+.carouselo {
+  margin-top: 30px; /* Espacio debajo del componente superior */
+  padding: 50px 0;
+  width: 100%;
+  overflow: hidden; /* Oculta las imágenes fuera del carrusel */
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  animation: slide 10s linear infinite; /* Movimiento continuo */
+}
+
+.carousel-item {
+  flex: 0 0 20%; /* Ajusta el tamaño para mostrar cinco categorías visibles al mismo tiempo */
+  text-align: center;
+  padding: 10px;
+}
+
+.carousel-image {
+  width: 100px; /* Tamaño de las imágenes */
+  height: 100px;
+  border-radius: 50%; /* Hace las imágenes circulares */
+  margin: 0 auto;
+}
+
+.carousel-item p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Animación continua */
+@keyframes slide {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%); /* Desplaza todo el contenido hacia la izquierda */
+  }
+}
+
+/* Repetir visualmente las categorías */
+.carousel-track {
+  display: flex;
+  animation: slide 10s linear infinite; /* Animación fluida y continua */
+}
+
+/* Duplicar elementos al final del track para crear la ilusión de continuidad */
+.carousel-track .carousel-item:nth-child(n+5) {
+  display: block;
+}

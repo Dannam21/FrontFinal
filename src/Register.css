@@ -1,0 +1,85 @@
+/* Contenedor Principal */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-color: #fff5f7; /* Fondo claro */
+  }
+  
+  /* Tarjeta del Formulario */
+  .register-card {
+    background-color: #fff; /* Fondo blanco */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Título */
+  .register-card h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtítulo */
+  .register-card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  /* Enlace de inicio de sesión */
+  .login-link {
+    color: #e20074; /* Color rosado */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Campos de Entrada */
+  .register-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Botón de Registro */
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e20074; /* Color rosado fuerte */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #c70063; /* Color más oscuro al pasar el cursor */
+  }
+  
+  /* Enlace para volver a la tienda */
+  .return-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .return-link:hover {
+    text-decoration: underline;
+  }
+  

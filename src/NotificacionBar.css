@@ -1,0 +1,14 @@
+.notification-bar {
+    background-color: #f7f9f8; /* Fondo claro */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centrar texto */
+    padding: 10px 0; /* Espaciado vertical */
+    font-size: 14px; /* Tamaño del texto */
+    font-family: Arial, sans-serif; /* Fuente legible */
+    border-bottom: 1px solid #ddd; /* Línea inferior */
+  }
+  
+  .notification-bar p {
+    margin: 0; /* Eliminar márgenes del párrafo */
+  }
+  

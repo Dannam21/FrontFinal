@@ -1,0 +1,94 @@
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fdf7f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .profile-details p {
+    font-size: 16px;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  .profile-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .edit-profile label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-profile input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .edit-btn {
+    background-color: #ffc1cc;
+    color: #fff;
+  }
+  
+  .edit-btn:hover {
+    background-color: #ff94a2;
+  }
+  
+  .save-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .save-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .cancel-btn {
+    background-color: #ff5722;
+    color: white;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #e64a19;
+  }
+  
+  .logout-btn {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .logout-btn:hover {
+    background-color: #0b7dda;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #da190b;
+  }
+  

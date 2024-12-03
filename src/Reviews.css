@@ -1,0 +1,63 @@
+/* Contenedor de la Sección de Reseñas */
+.reviews-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  /* Título de Reseñas */
+  .reviews-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Cada Reseña */
+  .review {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .review:last-child {
+    border-bottom: none;
+  }
+  
+  /* Texto de las Reseñas */
+  .review p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Nombre del Autor */
+  .review strong {
+    color: #333;
+  }
+  
+  /* Calificación (Estrellas) */
+  .review-stars {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #e20074;
+    font-size: 14px;
+  }
+  
+  /* Botón de Compartir */
+  .share-button {
+    margin-top: 20px;
+    display: inline-block;
+    color: #e20074;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .share-button:hover {
+    text-decoration: underline;
+  }
+  
